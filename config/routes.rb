@@ -1,13 +1,8 @@
 Rails.application.routes.draw do
 
-  
+  root 'sessions#new'
 
-  get 'aos_leagues/new'
-
-  get 'aos_leagues/show'
-
-  get 'aos_leagues/index'
-
+  resources :aos_leagues
   resources :users
   resources :sessions
 

@@ -1,0 +1,2 @@
+class AosLeague < ApplicationRecord
+end
